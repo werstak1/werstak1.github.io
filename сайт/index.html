@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Афиша Продажа билетов</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">Афиша</h1>
+            <nav class="nav">
+                <a href="index.html" class="nav-link">Главная</a>
+                <a href="cobitue.html" class="nav-link">События</a>
+                <a href="contact.html" class="nav-link">Контакты</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h2 class="hero-title">Лучшие события города</h2>
+            <p class="hero-subtitle">Выбирайте, покупайте, наслаждайтесь!</p>
+            <a href="cobitue.html">
+            <button class="btn btn-primary">Посмотреть события</button>
+            </a>
+        </div>
+    </section>
+
+    <section class="events">
+        <div class="container">
+            <h2 class="section-title">Ближайшие события</h2>
+            <div class="events-grid">
+                <div class="event-card">
+                    <img src="фоточки\IMG_7120.JPG.jpg " alt="Концерт" class="event-image">
+                    <h3 class="event-title">Концерт «Золотая осень»</h3>
+                    <p class="event-date">25 октября 2023</p>
+                    <p class="event-location">Концертный зал «Москва»</p>
+                    <div class="event-price">от 5000 ₽</div>
+                    <a href="oplata.html">
+                    <button class="btn btn-secondary">Купить билеты</button>
+                    </a>
+                </div>
+                <div class="event-card">
+                    <img src="фоточки\авпавф.jpg" alt="Спектакль" class="event-image">
+                    <h3 class="event-title">Спектакль «Ромео и Джульетта»</h3>
+                    <p class="event-date">5 ноября 2023</p>
+                    <p class="event-location">Театр драмы</p>
+                    <div class="event-price">от 5000 ₽</div>
+                    <a href="oplata.html">
+                    <button class="btn btn-secondary">Купить билеты</button>
+                    </a>
+                </div>
+                <div class="event-card">
+                    <img src="фоточки\regular_file-3b3cd0eb8005a2d1bafce39674e227bd.jpg" alt="Выставка" class="event-image">
+                    <h3 class="event-title">Выставка современного искусства</h3>
+                    <p class="event-date">15 ноября 2023</p>
+                    <p class="event-location">Галерея «Арт-пространство»</p>
+                    <div class="event-price">от 5000₽</div>
+                    <a href="oplata.html">
+                    <button class="btn btn-secondary">Купить билеты</button>
+                    </a>
+                </div>
+                <div class="event-card">
+                    <img src="фоточки\saasas.jpg" alt="Мастер-класс" class="event-image">
+                    <h3 class="event-title">Мастер-класс по живописи</h3>
+                    <p class="event-date">20 ноября 2023</p>
+                    <p class="event-location">Студия «Творчество»</p>
+                    <div class="event-price">от 5000 ₽</div>
+                    <a href="oplata.html">
+                    <button class="btn btn-secondary">Купить билеты</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="categories">
+        <div class="container">
+            <h2 class="section-title">Категории событий</h2>
+            <div class="categories-grid">
+                <div class="category-card">
+                    <h3 class="category-title">Концерты</h3>
+                    <span class="category-count">25 событий</span>
+                </div>
+                <div class="category-card">
+                    <h3 class="category-title">Театры</h3>
+                    <span class="category-count">18 событий</span>
+                </div>
+                <div class="category-card">
+                    <h3 class="category-title">Выставки</h3>
+                    <span class="category-count">12 событий</span>
+                </div>
+                <div class="category-card">
+                    <h3 class="category-title">Обучение</h3>
+                    <span class="category-count">8 событий</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p class="footer-text">&copy; 2026 Афиша Продажа билетов. Все права защищены.</p>
+        </div>
+
+         <section class="banner-section">
+            <button class="banner-close">&times;</button>
+            <div class="container banner-wrapper">
+
+        <div class="apple-banner">
+            <img src="фоточки\банер.jpg" alt="banner">
+
+            <div class="apple-banner-content">
+                <p class="apple-subtitle">Специальное предложение</p>
+                <h2>События недели</h2>
+                <a href="cobitue.html" class="apple-btn">Смотреть →</a>
+            </div>
+        </div>
+
+    </div>
+</section>
+        </div>
+
+    </div>
+</section>  
+    </div>
+</section>
+    </footer>
+</body>
+<script>
+document.querySelector('.banner-close').onclick = function() {
+    document.querySelector('.apple-banner').style.display = 'none';
+};
+</script>
+</html>
